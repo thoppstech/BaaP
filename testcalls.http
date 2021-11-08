@@ -1,0 +1,18 @@
+// PLEASE IGNORE this file if you are not using VSCode or this extension
+// This file is for manually testing our APIs using VSCode extension `REST Client`
+// Read more about the extension at https://marketplace.visualstudio.com/items?itemName=humao.rest-client   
+// You can use any REST API clients like POSTMAN, Thunder client etcetera to test our APIs  
+
+@hostname = localhost
+@port = 1337
+@host = {{hostname}}:{{port}}
+@contentType = application/json
+
+###
+// Server Health Check
+// Returns status code 200 HTTP OK if server is live
+
+GET http://{{host}}/healthcheck
+
+###
+
