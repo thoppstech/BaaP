@@ -23,22 +23,32 @@ BaaP.ts is designed primarily for developers & innovators of all levels to build
 - **For Innovators**, BaaP.ts can be used to prototype their ideas pretty damn quick.
 
 ## Blueprint
-[_Image goes here_]
+[_Content Coming Soon_]
 
 ## Getting Started
 
-### Installation
+### Project Setup
 
-[_Content goes here_]
+#### 1. Clone the repository
+```
+git clone https://github.com/thoppstech/BaaP.git
+```
+
+#### 2. Install dependencies
+```
+yarn install
+```
+### Configuration
+
+#### 3. Update `config/config.ts` file if you wish to change the default configuration settings.
 
 ### Run
 
-[_Content goes here_]
-
+#### 4. To run BaaP in Dev Mode
+```
+yarn dev
+```
 
 ### Deploy
 
-[_Content goes here_]
-
-
-
+[_Content coming soon_]
