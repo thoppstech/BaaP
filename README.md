@@ -1,26 +1,27 @@
-# BaaP.ts
+# Bapp
 
-BaaP.ts is an open source ready-to-use cross-platform backend framework based on node.js and written in typescript.
+**Bapp** is an open source ready-to-use cross-platform backend framework based on node.js and written in typescript.
 
-Major highlights of BaaP.ts are the following:
+Major highlights of Bapp are the following:
 
 - Headless access using REST API
-- DB agnostic
-- Built-in User Identity and Access Management
+- Integration with Backend-as-a-Service platforms like firebase, supabase, etc.,
+- Identity and Access Management for Users, Devices, and Apps with user-defined roles, permissions, and controls
+- Support for relational and non-relational databases.
+- Data access using REST APIs and graphQL
 - Support for multi-tenancy
-- Integration with ML Models _(Coming Soon)_
 - Works with any frontend frameworks or apps
 - Flexible, Extensible and scalable
 
-BaaP.ts is designed primarily for developers & innovators of all levels to build desktop, mobile, web or IoT applications.
+Bapp is designed primarily for developers & innovators of all levels to build desktop, mobile, web, or IoT applications.
 
-- **For beginners**, BaaP.ts is a good reference project to learn coding design patterns and best practices.
+- **For beginners**, Bapp is a good reference project to learn coding design patterns and best practices.
 
-- **For frontend developers**, BaaP.ts is a ready-to-use backend platform so that they can focus on developing frontend.
+- **For frontend developers**, Bapp is a ready-to-use backend solution to quickstart frontend development.
 
 - **For backend developers**, it is a boilerplate code with hundreds of lines of code pre-written for them.
 
-- **For Innovators**, BaaP.ts can be used to prototype their ideas pretty damn quick.
+- **For Innovators**, Bapp can be used to prototype their ideas pretty damn quick.
 
 ## Blueprint
 [_Content Coming Soon_]
@@ -31,7 +32,7 @@ BaaP.ts is designed primarily for developers & innovators of all levels to build
 
 #### 1. Clone the repository
 ```
-git clone https://github.com/thoppstech/BaaP.git
+git clone https://github.com/thoppstech/Bapp.git
 ```
 
 #### 2. Install dependencies
@@ -44,7 +45,7 @@ yarn install
 
 ### Run
 
-#### 4. To run BaaP in Dev Mode
+#### 4. To run Bapp in Dev Mode
 ```
 yarn dev
 ```
