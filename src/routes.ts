@@ -8,29 +8,33 @@ function routes(app: Express) {
         const method = req.method;
         const queryParams = req.query;
         const body = req.body;
-        logger.info({ queryParams, body });
-        res.send({ method, queryParams, body })
+        const headers = req.headers;
+        logger.info({ queryParams, headers, body });
+        res.send({ method, headers, queryParams, body });
     });
     app.post("/echo", (req: Request, res: Response) => {
         const method = req.method;
         const queryParams = req.query;
         const body = req.body;
-        logger.info({ queryParams, body });
-        res.send({ method, queryParams, body })
+        const headers = req.headers;
+        logger.info({ queryParams, headers, body });
+        res.send({ method, headers, queryParams, body });
     });
     app.put("/echo", (req: Request, res: Response) => {
         const method = req.method;
         const queryParams = req.query;
         const body = req.body;
-        logger.info({ queryParams, body });
-        res.send({ method, queryParams, body })
+        const headers = req.headers;
+        logger.info({ queryParams, headers, body });
+        res.send({ method, headers, queryParams, body });
     });
     app.delete("/echo", (req: Request, res: Response) => {
         const method = req.method;
         const queryParams = req.query;
         const body = req.body;
-        logger.info({ queryParams, body });
-        res.send({ method, queryParams, body })
+        const headers = req.headers;
+        logger.info({ queryParams, headers, body });
+        res.send({ method, headers, queryParams, body });
     });
 }
 
